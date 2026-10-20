@@ -46,11 +46,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Systems-style tech CV with monospace meta and a tinted sidebar holding stack, skills and links.",
-  preview: {
-    "header": "rail",
-    "sidebar": "right",
-    "sidebarTinted": true,
-    "accentRule": "block",
-    "density": "dense"
-  },
+  designNotes:
+    "Two-column with a 56mm tinted right aside separated by a hairline. Masthead sits in the main column, the name above a 2pt accent border-bottom; headings are spaced caps. The tinted rail is the differentiator.",
 };

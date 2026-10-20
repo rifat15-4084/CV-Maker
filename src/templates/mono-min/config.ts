@@ -9,7 +9,7 @@ export const config: TemplateConfig = {
   category: "Minimal",
   thumbnail: null,
   defaultAccent: "#111827",
-  accentOptions: ["#334155","#0f172a","#475569","#1e293b","#0f766e","#1e3a8a"],
+  accentOptions: ["#111827", "#334155", "#0f172a", "#475569", "#1e293b", "#0f766e", "#1e3a8a"],
   fonts: fontsFor("ibmmono", "ibmplex", "inter", "system"),
   supportedSections: SECTION_KEYS as unknown as SectionKey[],
   extraFields: [
@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Typewriter-minimal CV built on a monospace grid with tight, technical spacing and no ornament.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "dense"
-  },
+  designNotes:
+    "Single-column monospace page. Small left name with a plain subtitle and iconless two-column contacts; headings are letter-spaced spaced caps with a hairline underline. Deliberately ornament-free — purely typographic.",
 };

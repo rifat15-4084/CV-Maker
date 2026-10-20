@@ -9,7 +9,7 @@ export const config: TemplateConfig = {
   category: "Tech",
   thumbnail: null,
   defaultAccent: "#22c55e",
-  accentOptions: ["#166534","#15803d","#3f6212","#047857","#065f46","#1e3a8a"],
+  accentOptions: ["#22c55e", "#166534", "#15803d", "#3f6212", "#047857", "#065f46", "#1e3a8a"],
   fonts: fontsFor("ibmmono", "space", "ibmplex", "inter"),
   supportedSections: SECTION_KEYS as unknown as SectionKey[],
   extraFields: [
@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Terminal-flavoured tech CV with a prompt line, crisp monospace dates and a compact single column.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "dense"
-  },
+  designNotes:
+    "Compact single-column, monospace by default. Terminal-style header with a '~/cv $ whoami' prompt above the name and iconless contacts; headings are spaced caps with hairline borders and shell-style labels like 'experience.log'.",
 };

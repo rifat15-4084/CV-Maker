@@ -39,20 +39,6 @@ export interface TemplateExtraField {
   help?: string;
 }
 
-/**
- * Describes the template's structure so the registry can draw a preview
- * thumbnail (SVG) without shipping an image asset for every template.
- */
-export interface TemplatePreviewSpec {
-  header: "banner" | "stacked" | "split" | "centered" | "rail" | "band";
-  sidebar: "none" | "left" | "right";
-  sidebarTinted?: boolean;
-  photo?: boolean;
-  photoShape?: "square" | "circle";
-  density?: "airy" | "normal" | "dense";
-  accentRule?: "underline" | "block" | "full";
-}
-
 export interface TemplateConfig {
   /** Must equal the folder name. */
   id: string;
@@ -66,8 +52,18 @@ export interface TemplateConfig {
   supportedSections: SectionKey[];
   extraFields: TemplateExtraField[];
   hasPhoto: boolean;
+  /** Marketing copy shown in the gallery and picker. */
   description: string;
-  preview: TemplatePreviewSpec;
+  /**
+   * Short developer-facing note on what makes this design distinct: the
+   * layout skeleton, the distinguishing treatments, and which `_kit`
+   * primitives to use if you extend it.
+   *
+   * This is the shared vocabulary that keeps 60 templates from collapsing into
+   * "the same layout with a different colour" — see the uniqueness gate in
+   * `src/components/templates/thumbnails.test.ts`.
+   */
+  designNotes: string;
 }
 
 export interface TemplateProps {

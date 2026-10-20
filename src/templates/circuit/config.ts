@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Modern tech CV with a node marker at the name, crisp rules and a clean single-column body.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Single-column full-width page. Inline flex header with a 10pt solid accent circle 'node' beside the name; headings are accent underlines. The round node marker is the only ornament.",
 };

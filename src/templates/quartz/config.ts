@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Crystalline two-column CV with a solid accent header bar, boxed headings and a grouped skills matrix.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-width solid-accent header band (name left, contact right) over a single body column. Headings are tinted boxed labels with a border. The saturated band plus boxed headings distinguish it from other band layouts.",
 };

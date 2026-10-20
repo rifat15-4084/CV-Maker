@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Traditional professional CV with a serif masthead, centred contact line and firmly ruled sections.",
-  preview: {
-    "header": "centered",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single centred column. Centred grid masthead — serif name, letterspaced uppercase accent job title, then a full-width hairline over centred two-column contacts; headings are accent underlines.",
 };

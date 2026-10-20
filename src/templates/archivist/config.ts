@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Archival academic CV with restrained colour, reference-friendly entry spacing and a formal masthead.",
-  preview: {
-    "header": "rail",
-    "sidebar": "left",
-    "accentRule": "block",
-    "density": "dense"
-  },
+  designNotes:
+    "Single-column serif page. Left masthead in serif with an accent-dark job title; headings carry a 3.5pt accent left border. No ornament — the weight and colour of the heading rules do the work.",
 };

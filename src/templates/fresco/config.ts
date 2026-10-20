@@ -26,12 +26,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Painterly creative CV with a serif display masthead, tinted side panel and softly rounded section blocks.",
-  preview: {
-    "header": "split",
-    "sidebar": "right",
-    "sidebarTinted": true,
-    "photo": true,
-    "photoShape": "circle",
-    "density": "airy"
-  },
+  designNotes:
+    "Two-column with a 62mm tinted right sidebar separated by a hairline. Split header puts a large 32pt serif name and job title in the main column; headings are accent underlines in main and spaced caps in the sidebar. Sidebar holds a 32mm circle photo.",
 };

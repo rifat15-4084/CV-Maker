@@ -26,10 +26,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Vibrant modern CV with a thick accent rule, timeline rails for experience and chip-style skills.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-height 14mm accent spine down the left with the name set vertically (writing-mode: vertical-rl) inside it, plus a horizontal name in the content column. Headings use an accent left border; experience uses a timeline rail and contacts render as an outlined pill strip.",
 };

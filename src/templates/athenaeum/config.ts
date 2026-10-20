@@ -9,7 +9,7 @@ export const config: TemplateConfig = {
   category: "Academic",
   thumbnail: null,
   defaultAccent: "#7f1d1d",
-  accentOptions: ["#e11d48","#db2777","#be123c","#f43f5e","#9d174d","#7c3aed"],
+  accentOptions: ["#7f1d1d", "#e11d48", "#db2777", "#be123c", "#f43f5e", "#9d174d", "#7c3aed"],
   fonts: fontsFor("garamond", "libre", "lora", "source"),
   supportedSections: SECTION_KEYS as unknown as SectionKey[],
   extraFields: [
@@ -26,12 +26,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Refined academic CV with a framed photo, deep accent rules and a restrained research-focused layout.",
-  preview: {
-    "header": "split",
-    "sidebar": "none",
-    "photo": true,
-    "photoShape": "square",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single centred column with a photo-left split header: a 30mm framed photo beside the name, contacts stacked to the right. Headings are accent underlines. The framed photo block is the distinguishing element.",
 };

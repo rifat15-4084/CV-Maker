@@ -26,10 +26,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Grid-aligned minimal CV with a strict left axis, timeline dots and a consistent vertical rhythm.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "normal"
-  },
+  designNotes:
+    "68/32 editorial split — main column plus a 62mm right reference rail divided by a hairline. Full-width grid header sets a large name on a 2.5pt ink baseline rule. Main headings use an accent bar, rail headings solid accent blocks.",
 };

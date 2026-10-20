@@ -26,11 +26,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Executive CV with a tinted left identity aside, accent spine and timeline-led career history.",
-  preview: {
-    "header": "split",
-    "sidebar": "left",
-    "sidebarTinted": true,
-    "accentRule": "block",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column with a 58mm tinted left aside carrying a 2pt accent right spine. Masthead sits in the aside; aside headings are sidebar-style, main headings accent underlines. The accent spine is the signature.",
 };

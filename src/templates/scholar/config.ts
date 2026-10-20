@@ -29,5 +29,6 @@ export const config: TemplateConfig = {
   hasPhoto: false,
   description:
     "Traditional academic CV: centred serif masthead, dense single column, publication-style entries and restrained colour.",
-  preview: { header: "centered", sidebar: "none", density: "dense", accentRule: "underline" },
+  designNotes:
+    "Single centred dense column. Centred serif masthead with an italic job title and a double-rule contact band (2pt accent top, 0.75pt ink bottom); headings are spaced caps using academic labels. The double-rule band is the signature.",
 };

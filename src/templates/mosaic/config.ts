@@ -9,7 +9,7 @@ export const config: TemplateConfig = {
   category: "Creative",
   thumbnail: null,
   defaultAccent: "#0d9488",
-  accentOptions: ["#0f766e","#0891b2","#14b8a6","#059669","#155e75","#334155"],
+  accentOptions: ["#0d9488", "#0f766e", "#0891b2", "#14b8a6", "#059669", "#155e75", "#334155"],
   fonts: fontsFor("dmsans", "space", "source", "inter"),
   supportedSections: SECTION_KEYS as unknown as SectionKey[],
   extraFields: [
@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Grid-led creative CV that tiles skills and languages beside a strong narrative column with crisp accents.",
-  preview: {
-    "header": "split",
-    "sidebar": "right",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column (1fr / 58mm) separated by a heavy 2pt accent rule above the grid. Left masthead; main headings are accent underlines and the right column uses spaced caps. The thick rule dividing header from body is the differentiator.",
 };

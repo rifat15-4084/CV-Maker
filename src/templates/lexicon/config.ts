@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Dictionary-clean academic CV with a small-caps name, tight leading and clearly labelled sections.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "dense"
-  },
+  designNotes:
+    "Dense single column with wide margins. Left-aligned masthead sets an uppercase letterspaced serif name over a hairline bottom border; headings are accent underlines. Hairline header rule and tight density are the differentiators.",
 };

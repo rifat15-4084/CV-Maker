@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Achievement-focused professional CV with a strong top band and a two-column skills grid.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-width solid-accent header band over a single column. The band carries a 27pt name and job title with two-column contacts below; headings are accent underlines.",
 };

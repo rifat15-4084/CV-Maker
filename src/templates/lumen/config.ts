@@ -36,12 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Soft-modern layout with a tinted full-width sidebar, glowing accent rule under the name and bar-style skill emphasis.",
-  preview: {
-    "header": "split",
-    "sidebar": "left",
-    "photo": true,
-    "photoShape": "circle",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column with a 62mm tinted left sidebar. Left masthead with a 24mm x 2.5pt accent rule under the name; sidebar uses spaced caps headings while the main column uses accent underlines. Sidebar holds a centred 32mm circle headshot.",
 };

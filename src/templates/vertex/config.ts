@@ -9,7 +9,7 @@ export const config: TemplateConfig = {
   category: "Modern",
   thumbnail: null,
   defaultAccent: "#4f46e5",
-  accentOptions: ["#7c3aed","#8b5cf6","#6d28d9","#a855f7","#4c1d95","#2563eb"],
+  accentOptions: ["#4f46e5", "#7c3aed", "#8b5cf6", "#6d28d9", "#a855f7", "#4c1d95", "#2563eb"],
   fonts: fontsFor("space", "montserrat", "dmsans", "inter"),
   supportedSections: SECTION_KEYS as unknown as SectionKey[],
   extraFields: [
@@ -40,11 +40,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Two-column modern CV with a colour-block header, angular accents and a compact right rail for skills and languages.",
-  preview: {
-    "header": "band",
-    "sidebar": "right",
-    "sidebarTinted": true,
-    "accentRule": "block",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-width solid-accent header band with a 28mm square photo in a white ring beside the name, over a two-column body with a 58mm tinted right rail. Main headings use an accent left bar; rail headings are sidebar-style.",
 };

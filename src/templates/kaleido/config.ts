@@ -50,10 +50,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Colour-forward creative CV with alternating tinted section panels and dot-scale skills for a portfolio feel.",
-  preview: {
-    "header": "centered",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single centred column with alternating tinted section panels. Centred header sets the name over an uppercase job title, a full-width rule and two-column contacts; headings are accent underlines. The alternating panels create the rhythm.",
 };

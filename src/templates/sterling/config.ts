@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Corporate professional CV with a bordered masthead, rule-separated sections and a formal tone throughout.",
-  preview: {
-    "header": "banner",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single column with a bordered boxed masthead carrying a 4pt accent top border, name left and contact right. Headings are accent underlines. The heavy accent edge on a bordered box is the differentiator.",
 };

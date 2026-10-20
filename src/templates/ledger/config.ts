@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Structured professional CV with a table-like header block and aligned, uniformly spaced experience rows.",
-  preview: {
-    "header": "rail",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "dense"
-  },
+  designNotes:
+    "Compact single column with a ledger/table feel. Name block closed by a 2pt accent bottom rule, uppercase muted job title and two-column contacts; headings are spaced caps with hairline borders.",
 };

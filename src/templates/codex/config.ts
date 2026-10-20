@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Scholarly CV with a bold serif name, doubling section rules and a formal, classical rhythm.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Single centred column with wide margins. Left-aligned serif masthead with a letterspaced uppercase accent job title; headings use a double rule (2pt accent top, hairline bottom).",
 };

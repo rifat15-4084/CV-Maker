@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Fluent single-column modern CV with an inline accent bar beside each heading and mirrored contact columns.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "normal"
-  },
+  designNotes:
+    "Single flowing column. Left masthead with accent date/meta and a hairline divider under the two-column contact row; headings use an accent left block bar. The header divider and mirrored contacts set it apart.",
 };

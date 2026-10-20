@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Steady professional CV with a tinted header block, ruled body sections and a calm navy palette.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single column under a full-width tinted header band with a hairline bottom border. The band carries the name, accent job title and two-column contacts; headings are accent underlines.",
 };

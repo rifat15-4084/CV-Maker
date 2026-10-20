@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Wide-scan header across the top of the page, then a calm two-column body separated by a hairline rule — airy and contemporary.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "airy"
-  },
+  designNotes:
+    "Full-width header band closed by a 3pt accent bottom rule, with the name left and contact right, over a two-column body whose 52mm right aside is separated by a hairline border. Headings are spaced caps.",
 };

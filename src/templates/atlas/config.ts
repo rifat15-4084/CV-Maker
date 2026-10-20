@@ -21,5 +21,6 @@ export const config: TemplateConfig = {
   hasPhoto: false,
   description:
     "Corporate single-column CV with a bordered masthead, three-column contact strip and clearly ruled sections — safe and familiar for recruiters.",
-  preview: { header: "banner", sidebar: "none", accentRule: "underline", density: "normal" },
+  designNotes:
+    "Single column inside a bordered body. Boxed header card with a 4pt accent top border, name left and right-aligned tagline, contact strip under a hairline; optional tinted gradient dividers between sections.",
 };

@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Teaching-focused academic CV with a calm header rule, ordered sections and a two-column contact strip.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-width header band closed by a 2pt accent bottom rule. Serif name, accent job title and two-column contacts; headings are accent underlines. Close to Ledger but distinguished by serif display type against Ledger's compact all-caps treatment.",
 };

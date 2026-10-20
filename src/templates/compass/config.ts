@@ -36,12 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Balanced professional CV with a round photo, two-column contact header and measured section spacing.",
-  preview: {
-    "header": "split",
-    "sidebar": "none",
-    "photo": true,
-    "photoShape": "circle",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single column with a photo-left split header: a 30mm circle photo with an accent ring beside the name and two-column contacts. Headings are accent underlines.",
 };

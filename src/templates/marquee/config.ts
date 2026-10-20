@@ -36,12 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Bold creative CV with an oversized name treatment, a full-bleed accent band and a framed portrait.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "photo": true,
-    "photoShape": "square",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-bleed accent header band over a single full-width body column. The band carries an oversized 40pt name with a letterspaced uppercase job title and a 34mm circle or square portrait ringed in translucent white; headings are accent underlines.",
 };

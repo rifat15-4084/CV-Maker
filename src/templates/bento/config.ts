@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Card-based modern CV that groups summary, skills and languages into soft tinted tiles beside the main column.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column (1fr / 60mm) under a tinted header band with a 3pt accent border. The right rail is built from soft tinted rounded cards, including the contact block — the card grid is what separates it from a plain sidebar.",
 };

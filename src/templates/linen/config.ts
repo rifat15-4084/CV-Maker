@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Warm minimal CV with a subtle tinted band, serif body and restrained letter-spaced headings.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single column under a tinted header band with a hairline bottom border. Warm serif name with a letterspaced uppercase accent job title and two-column contacts; headings are accent underlines.",
 };

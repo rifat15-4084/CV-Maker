@@ -46,10 +46,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Layered tech CV with a stacked header band, grouped skill matrix and tight, engineering-style spacing.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "dense"
-  },
+  designNotes:
+    "Single column under a stacked header block (name, job title, two-column contacts) divided from the body by a 2pt accent border-top. Headings are accent underlines. The full-width accent rule is the whole idea.",
 };

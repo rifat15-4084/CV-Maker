@@ -32,5 +32,6 @@ export const config: TemplateConfig = {
   hasPhoto: false,
   description:
     "Editorial minimal CV: wide margins, serif display type and a quiet left label column — understated and highly readable.",
-  preview: { header: "stacked", sidebar: "none", density: "airy", accentRule: "underline" },
+  designNotes:
+    "Single column at wide margins with a 34mm left label gutter. Stacked serif name over an ink rule, contact line, then a faint second rule; section headings are plain caps labels sitting in the gutter with no rules at all.",
 };

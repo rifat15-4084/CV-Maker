@@ -21,5 +21,6 @@ export const config: TemplateConfig = {
   hasPhoto: false,
   description:
     "Executive CV with a commanding dark header band, serif display type and a disciplined single-column body built for senior leadership roles.",
-  preview: { header: "banner", sidebar: "none", accentRule: "full", density: "normal" },
+  designNotes:
+    "Full-width dark navy (#0f172a) header band with a commanding 34pt serif name, uppercase letterspaced accent job title and tagline. Headings use a double rule; a nested double-line square motif occupies the header right where a photo would sit.",
 };

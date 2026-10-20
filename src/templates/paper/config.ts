@@ -21,10 +21,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Quiet paper-white minimal CV with a label-and-content grid and no colour beyond a single thin rule.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column with a 34mm label rail on the left for contacts and a 1fr main body. Left masthead with an uppercase letterspaced subtitle; main headings are accent underlines while rail labels are plain uppercase. A hairline divides header from grid.",
 };

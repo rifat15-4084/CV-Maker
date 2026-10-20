@@ -22,5 +22,6 @@ export const config: TemplateConfig = {
   hasPhoto: true,
   description:
     "Creative layout with an overlapping accent panel, framed photo, boxed section headings and a two-column project grid for portfolio pieces.",
-  preview: { header: "split", sidebar: "none", photo: true, photoShape: "square", accentRule: "block", density: "normal" },
+  designNotes:
+    "Single column with a decorative rounded tint panel in the top-right corner. Split header: pill job-title badge above an uppercase 36pt name, beside a 34mm framed square photo. Headings are tinted boxed labels; projects use a two-column card grid.",
 };

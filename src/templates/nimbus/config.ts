@@ -26,12 +26,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Cloud-soft two-column modern CV with a tinted sidebar, circular photo and stacked sidebar facts.",
-  preview: {
-    "header": "split",
-    "sidebar": "left",
-    "sidebarTinted": true,
-    "photo": true,
-    "photoShape": "circle",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column with a 60mm tinted left sidebar. Masthead sits in the main column rather than the sidebar; headings are accent underlines in main and spaced caps in the aside, which holds a 34mm circle photo.",
 };

@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Angular creative CV with a solid accent aside, geometric heading markers and a strong left colour edge.",
-  preview: {
-    "header": "rail",
-    "sidebar": "left",
-    "accentRule": "block",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column with a 54mm solid-accent left aside. Masthead sits in the aside; aside headings are spaced caps and main headings accent underlines. The fully saturated sidebar is the distinguishing move.",
 };

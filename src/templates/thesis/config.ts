@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Academic CV styled like a paper: centred serif masthead, publication-style entries and a dense column.",
-  preview: {
-    "header": "centered",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "dense"
-  },
+  designNotes:
+    "Single centred dense academic column at 19mm margins. Centred serif masthead with an italic job title and iconless centred contacts above a hairline rule; headings are spaced caps under a centred divider.",
 };

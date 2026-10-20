@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Regal executive CV with a serif display name, centred masthead and a commanding single-column body.",
-  preview: {
-    "header": "banner",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Single centred column at 18mm margins. Centred serif masthead closed by a 1pt accent bottom border with an uppercase job title and centred contact block; headings are accent underlines.",
 };

@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Energetic creative CV with colour-blocked headings, a two-column body and playful chip clusters.",
-  preview: {
-    "header": "split",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "normal"
-  },
+  designNotes:
+    "Two-column (1fr 1fr) under a top header block. Left masthead with an oversized 33pt name and a bold accent job title; headings render as solid accent bars stacked in the main column and spaced caps in the side column. The colour-blocked headings are the signature.",
 };

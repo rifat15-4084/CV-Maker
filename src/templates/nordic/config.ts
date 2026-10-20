@@ -21,10 +21,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Scandinavian minimal CV: vast whitespace, a single hairline rule and near-weightless typography.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "airy"
-  },
+  designNotes:
+    "Single column with generous 22/20mm margins. Left masthead in medium weight with a muted subtitle, iconless two-column contacts and a hairline rule; headings are spaced caps under a single divider. All whitespace, no colour blocks.",
 };

@@ -55,12 +55,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Bold dark-header modern CV with a large photo, white-on-dark identity block and a crisp single-column body.",
-  preview: {
-    "header": "banner",
-    "sidebar": "none",
-    "photo": true,
-    "photoShape": "square",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-width dark (#0f172a) header flex band with the photo on the left, over a single white column. The band carries white-on-dark name text, an accent job title and inline contacts; headings are accent underlines. Photo is 30mm circle or square per setting.",
 };

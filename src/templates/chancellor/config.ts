@@ -9,7 +9,7 @@ export const config: TemplateConfig = {
   category: "Executive",
   thumbnail: null,
   defaultAccent: "#7f1d1d",
-  accentOptions: ["#e11d48","#db2777","#be123c","#f43f5e","#9d174d","#7c3aed"],
+  accentOptions: ["#7f1d1d", "#e11d48", "#db2777", "#be123c", "#f43f5e", "#9d174d", "#7c3aed"],
   fonts: fontsFor("playfair", "libre", "garamond", "lora"),
   supportedSections: SECTION_KEYS as unknown as SectionKey[],
   extraFields: [
@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Classical executive CV with a deep burgundy accent, centred masthead and a distinguished single column.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Single centred column with generous padding. Centred serif masthead (30pt name, letterspaced uppercase accent job title, centred two-column contacts); headings use a double rule (2pt accent top, hairline bottom).",
 };

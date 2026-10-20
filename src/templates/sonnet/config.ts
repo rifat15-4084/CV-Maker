@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Editorial-creative CV with a large serif name, italic subtitle and generous classical spacing.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "airy"
-  },
+  designNotes:
+    "Single centred narrow measure (27mm margins) at relaxed density. Centred masthead with a 22mm monogram roundel, 33pt serif name, italic subtitle and symmetric hairline rules; headings use a double rule. Short sections split into two columns.",
 };

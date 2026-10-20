@@ -40,10 +40,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Clear minimal CV with a soft tinted contact strip, one accent colour and light, tidy section rules.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Single column under a full-width tinted header band. The band carries the name, accent job title and two-column contacts; headings are accent underlines. Restraint is the point — one tint band, nothing else.",
 };

@@ -50,10 +50,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Playful tech CV with dotted markers, monospace headings and a compact technical density.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "underline",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-bleed tinted header band over a single padded column. The band renders a radial-gradient halftone dot screen behind a reversed-out name; headings are spaced caps with dotted 1pt rules between sections.",
 };

@@ -280,8 +280,8 @@ export const config: TemplateConfig = {
   id: "my-template",            // must equal the folder name
   name: "My Template",
   category: "Modern",           // Modern | Creative | Minimal | Professional | Tech | Academic | Executive
-  thumbnail: null,              // null → the registry draws an SVG preview from `preview`
-  defaultAccent: "#0ea5e9",
+  thumbnail: null,              // null → generate one with `npm run thumbnails`
+  defaultAccent: "#0ea5e9",     // must also appear in accentOptions, or no swatch shows as selected
   accentOptions: ["#0ea5e9", "#6366f1", "#10b981", "#f43f5e"],
   fonts: fontsFor("inter", "dmsans", "source"),   // ids from src/templates/_kit/fonts.ts
   supportedSections: [...SECTION_KEYS],           // or filter some out
@@ -290,11 +290,14 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "One or two sentences shown in the templates gallery.",
-  preview: { header: "split", sidebar: "left", photo: true, photoShape: "circle", density: "normal", accentRule: "underline" },
+  designNotes:
+    "What makes this design distinct: layout skeleton, header and heading treatments, decorative elements, and the _kit primitives to reuse.",
 };
 ```
 
 `extraFields` defines template-specific controls; their values live under `data.extra.<key>` and are written by the editor's extras form without clobbering other templates' data.
+
+`designNotes` is the developer-facing counterpart to `description`: it records what makes the design different from the other 59, in a shared vocabulary (layout skeleton, header, section headings, decorative elements, photo treatment). Keep it specific — `src/templates/config.test.ts` rejects notes that are too short or copied between templates, and it requires `defaultAccent` to be one of the `accentOptions` so the accent picker always shows a selected swatch.
 
 ### 3. `index.tsx`
 

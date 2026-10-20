@@ -50,10 +50,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Gradient masthead, two-column body and tinted info cards that group summary, skills and languages tight together.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Gradient masthead over a two-column body with tinted info cards in the left column. The gradient header carries a 30pt name, job title and inline icon contacts; left-column card headings are uppercase, right-column headings accent underlines. Summary, skills, languages and hobbies group into tinted cards.",
 };

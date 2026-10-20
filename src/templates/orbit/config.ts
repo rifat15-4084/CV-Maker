@@ -22,5 +22,6 @@ export const config: TemplateConfig = {
   hasPhoto: true,
   description:
     "Timeline-driven two-column CV with a gradient header, circular photo and a vertical rail that makes career progression obvious at a glance.",
-  preview: { header: "band", sidebar: "none", photo: true, photoShape: "circle", accentRule: "full", density: "normal" },
+  designNotes:
+    "Full-width gradient accent header band over a single column. The band holds a 32mm circle portrait in a white ring with a 30pt name and inline icon contacts; headings use an accent left border. Vertical timeline rails with accent dots mark experience and education.",
 };

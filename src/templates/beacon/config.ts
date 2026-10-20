@@ -40,10 +40,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Confident professional CV with a header beacon rule, a summary band and clearly ruled experience entries.",
-  preview: {
-    "header": "band",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-width header band closed by a 3pt accent bottom rule, over a single padded column. The 'beacon' rule under the masthead is the signature; headings are accent underlines.",
 };

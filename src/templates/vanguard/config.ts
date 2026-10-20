@@ -26,12 +26,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Commanding executive CV with a dark masthead, portrait and restrained monochrome authority.",
-  preview: {
-    "header": "banner",
-    "sidebar": "none",
-    "photo": true,
-    "photoShape": "square",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Full-width dark (#0f172a) header band with a 32mm square photo on the left, over a single body column with two-column contacts. Headings are accent underlines.",
 };

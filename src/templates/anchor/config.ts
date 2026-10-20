@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Solid professional CV with a heavy anchor rule under the name and dependable, restrained structure.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "full",
-    "density": "normal"
-  },
+  designNotes:
+    "Single centred column. Stacked left masthead closed by a 40mm solid accent rule under the name; headings are accent underlines. Differentiation rests on that heavy name rule plus generous page padding.",
 };

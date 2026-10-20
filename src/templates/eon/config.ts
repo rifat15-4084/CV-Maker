@@ -36,10 +36,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: false,
   description: "Airy modern CV with a slim left accent spine, generous whitespace and a calm, single-column reading flow.",
-  preview: {
-    "header": "stacked",
-    "sidebar": "none",
-    "accentRule": "block",
-    "density": "airy"
-  },
+  designNotes:
+    "Single column with a 6mm solid accent spine running the full height of the left edge. Header is deliberately plain (name, job, contacts) so the spine carries the identity; headings are accent underlines.",
 };

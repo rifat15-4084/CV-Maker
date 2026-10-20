@@ -40,12 +40,6 @@ export const config: TemplateConfig = {
   ],
   hasPhoto: true,
   description: "Developer CV with a dark identity rail, square photo and a focused main column for stack and projects.",
-  preview: {
-    "header": "rail",
-    "sidebar": "left",
-    "photo": true,
-    "photoShape": "square",
-    "accentRule": "block",
-    "density": "dense"
-  },
+  designNotes:
+    "Two-column with a 52mm dark (#0f172a) left rail that contains the masthead. Headings are accent underlines in main and sidebar-style in the rail; the rail holds a 30mm square photo.",
 };

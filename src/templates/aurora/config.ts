@@ -18,5 +18,6 @@ export const config: TemplateConfig = {
   hasPhoto: true,
   description:
     "Modern two-column CV with a soft tinted sidebar, circular photo and crisp section rules — a strong all-rounder for most industries.",
-  preview: { header: "split", sidebar: "left", photo: true, photoShape: "circle", density: "normal", accentRule: "underline" },
+  designNotes:
+    "Two-column with a 64mm tinted left sidebar, full 297mm height. Main header is the name over an uppercase spaced job title with a 26mm accent rule; sidebar headings are spaced caps in the accent.",
 };
