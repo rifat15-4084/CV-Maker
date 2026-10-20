@@ -2,7 +2,7 @@
 title: "How to tailor your CV to a job advert without starting over"
 description: "A 15-minute routine for matching your existing CV to a specific role: read the advert like a checklist, mirror the language, reorder the evidence."
 date: "2026-07-14"
-author: "The CVForge team"
+author: "The CV Maker team"
 readingTime: "7 min read"
 tags: ["Strategy", "Applications"]
 featured: false
@@ -38,7 +38,7 @@ Your best material already exists. Tailoring mostly means moving it.
 - **Skills:** reorder so the ones from their requirements list come first.
 - **Sections:** if they care about certifications and you have them, move that section above projects.
 
-In CVForge, drag-and-drop does this in seconds — reorder bullets within a role, or reorder whole sections.
+In CV Maker, drag-and-drop does this in seconds — reorder bullets within a role, or reorder whole sections.
 
 ## Step 4: Cut what dilutes
 

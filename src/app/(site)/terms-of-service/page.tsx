@@ -12,12 +12,12 @@ import { SUPPORT_EMAIL, SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of service",
   description:
-    "The rules for using CVForge: your account, acceptable use, ownership of your CV content, availability, liability and termination.",
+    "The rules for using CV Maker: your account, acceptable use, ownership of your CV content, availability, liability and termination.",
   alternates: { canonical: "/terms-of-service" },
   openGraph: {
     title: `Terms of service | ${SITE_NAME}`,
     description:
-      "The rules for using CVForge: accounts, acceptable use, content ownership and liability.",
+      "The rules for using CV Maker: accounts, acceptable use, content ownership and liability.",
     url: "/terms-of-service",
   },
   other: { "article:modified_time": LEGAL_LAST_UPDATED },
@@ -31,7 +31,7 @@ export default function TermsOfServicePage() {
         eyebrow="Legal"
         title="Terms of service"
         updatedLabel={LEGAL_LAST_UPDATED_LABEL}
-        intro="These terms set out the agreement between you and CVForge when you create an account or use the CV builder. They are written to be read, not to be skimmed past."
+        intro="These terms set out the agreement between you and CV Maker when you create an account or use the CV builder. They are written to be read, not to be skimmed past."
         sections={TERMS_SECTIONS}
         footer={
           <div>

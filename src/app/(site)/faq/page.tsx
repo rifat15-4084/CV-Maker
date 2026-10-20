@@ -15,12 +15,12 @@ import { SUPPORT_EMAIL, SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "FAQ — answers about templates, PDFs and privacy",
   description:
-    "Answers to common CVForge questions: cost, ATS-friendly PDFs, switching templates, photos, auto-save, deleting your data and CV length advice.",
+    "Answers to common CV Maker questions: cost, ATS-friendly PDFs, switching templates, photos, auto-save, deleting your data and CV length advice.",
   alternates: { canonical: "/faq" },
   openGraph: {
     title: `FAQ | ${SITE_NAME}`,
     description:
-      "Common questions about CVForge templates, PDF export, auto-save, photos and privacy.",
+      "Common questions about CV Maker templates, PDF export, auto-save, photos and privacy.",
     url: "/faq",
   },
 };

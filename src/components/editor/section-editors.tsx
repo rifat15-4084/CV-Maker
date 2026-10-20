@@ -381,7 +381,7 @@ export function ProjectsEditor({ items, onChange }: SectionProps<ProjectItem>) {
                   id={`project-${item.id}`}
                   value={item.name}
                   onChange={(event) => update(item.id, { name: event.target.value })}
-                  placeholder="CVForge"
+                  placeholder="CV Maker"
                 />
               </Field>
               <Field label="Your role" htmlFor={`project-role-${item.id}`}>

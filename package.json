@@ -1,8 +1,8 @@
 {
-  "name": "cvforge",
+  "name": "cv-maker",
   "version": "1.0.0",
   "private": true,
-  "description": "CVForge — create, manage and download professional CVs from 50+ templates.",
+  "description": "CV Maker — create, manage and download professional CVs from 50+ templates.",
   "scripts": {
     "dev": "npm run templates:registry && next dev",
     "prebuild": "npm run templates:registry",

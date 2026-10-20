@@ -1,28 +1,33 @@
 export const FAQ_ITEMS = [
   {
-    question: "Is CVForge really free?",
+    question: "Is CV Maker really free?",
     answer:
-      "Yes. The Free plan includes all CV templates, unlimited CVs, live preview, cloud saving and PDF downloads. You only need an account so your work is stored safely and you can come back to edit it later.",
+      "Yes. Every template, unlimited CVs, live preview and PDF downloads are free. You only need an account so your work is kept separate from anyone else using this browser.",
+  },
+  {
+    question: "Where is my CV stored?",
+    answer:
+      "In your own browser — accounts and CVs in local storage, uploaded photos in IndexedDB. Nothing is uploaded to a server, so your data stays on this device. Use “Export backup” in Settings to move it to another device or browser.",
   },
   {
     question: "Do I need to keep my browser tab open?",
     answer:
-      "No. Every change is auto-saved to your CVForge account about a second and a half after you stop typing. Close the tab, switch device, log back in — your CV is exactly where you left it.",
+      "No. Every change is auto-saved about a second and a half after you stop typing, so you can close the tab and come back later. Because data lives in this browser, clearing your browsing data or using private mode will remove it — export a backup if it matters.",
   },
   {
     question: "Will the PDF work with applicant tracking systems (ATS)?",
     answer:
-      "Yes. CVForge exports a real, text-based PDF: fonts are embedded, text stays selectable and copyable, and there are no images standing in for your content. Use a single-column or simple two-column template for the safest ATS parse.",
+      "Yes. CV Maker exports a real, text-based PDF: fonts are embedded, text stays selectable and copyable, and there are no images standing in for your content. Use a single-column or simple two-column template for the safest ATS parse.",
   },
   {
     question: "Can I switch templates without losing my content?",
     answer:
-      "Absolutely. Use “Change template” in the editor and your data is preserved. Fields a new template does not use stay saved in your account — they are simply hidden until you switch back or pick a template that supports them.",
+      "Absolutely. Use “Change template” in the editor and your data is preserved. Fields a new template does not use stay saved — they are simply hidden until you switch back or pick a template that supports them.",
   },
   {
     question: "How many templates are there?",
     answer:
-      "CVForge ships with 50+ templates across Modern, Creative, Minimal, Professional, Tech, Academic and Executive categories. Every template is a genuinely different layout, not a recolour.",
+      "CV Maker ships with 60 templates across Modern, Creative, Minimal, Professional, Tech, Academic and Executive categories. Every template is a genuinely different layout, not a recolour.",
   },
   {
     question: "Can I add a photo?",

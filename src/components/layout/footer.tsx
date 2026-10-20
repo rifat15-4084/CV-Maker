@@ -1,12 +1,18 @@
 import Link from "next/link";
-import { FileText } from "lucide-react";
-import { FOOTER_GROUPS, SITE_NAME, SUPPORT_EMAIL } from "@/lib/site";
+import {
+  AUTHOR_NAME,
+  AUTHOR_URL,
+  FOOTER_GROUPS,
+  SITE_NAME,
+} from "@/lib/site";
 import { templateCount } from "@/templates/registry";
 import { GithubIcon, LinkedinIcon, XIcon } from "@/components/icons/brand-icons";
 
 export function Footer() {
   const year = new Date().getFullYear();
   const count = templateCount();
+  const [lead, ...rest] = SITE_NAME.split(" ");
+  const accent = rest.join(" ");
 
   return (
     <footer className="site-footer relative mt-24 border-t border-[var(--border-soft)]">
@@ -16,10 +22,18 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2.5">
               <span className="flex size-9 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 via-violet-500 to-fuchsia-500 text-white">
-                <FileText className="size-4.5" aria-hidden />
+                <span className="text-sm font-black tracking-tight" aria-hidden>
+                  RH
+                </span>
               </span>
               <span className="text-lg font-bold tracking-tight">
-                CV<span className="text-gradient">Forge</span>
+                {lead}
+                {accent ? (
+                  <>
+                    {" "}
+                    <span className="text-gradient">{accent}</span>
+                  </>
+                ) : null}
               </span>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-ink-400">
@@ -64,8 +78,13 @@ export function Footer() {
           </p>
           <p>
             Questions?{" "}
-            <a href={`mailto:${SUPPORT_EMAIL}`} className="text-cyan-300 hover:underline">
-              {SUPPORT_EMAIL}
+            <a
+              href={AUTHOR_URL}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-cyan-300 hover:underline"
+            >
+              {AUTHOR_NAME}
             </a>
           </p>
         </div>

@@ -4,7 +4,7 @@ import type { TemplateTheme } from "./theme";
 import { formatInline, type ContactItem } from "./helpers";
 
 /* ==========================================================================
-   Print-safe A4 primitives shared by every CVForge template.
+   Print-safe A4 primitives shared by every CV Maker template.
    All styling is inline so it is immune to Tailwind purging and always
    survives the print pipeline (selectable text, correct colours).
    ========================================================================== */

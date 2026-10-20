@@ -79,7 +79,7 @@ export function ContactForm() {
       // A full or unavailable store must not block the mailto fallback.
     }
 
-    const subject = encodeURIComponent(`[CVForge] ${parsed.data.subject}`);
+    const subject = encodeURIComponent(`[CV Maker] ${parsed.data.subject}`);
     const body = encodeURIComponent(
       `${parsed.data.message}\n\n—\n${parsed.data.name}\n${parsed.data.email}`,
     );
@@ -98,7 +98,7 @@ export function ContactForm() {
         </span>
         <h2 className="mt-5 text-xl font-semibold">Thanks — your message is ready</h2>
         <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-ink-400">
-          CVForge runs entirely in your browser, so there is no server to receive this form. A copy
+          CV Maker runs entirely in your browser, so there is no server to receive this form. A copy
           has been saved on this device — send it on with one click below and it will reach us by
           email.
         </p>

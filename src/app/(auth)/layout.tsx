@@ -10,7 +10,7 @@ import { listTemplates } from "@/templates/registry";
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   const showcase = listTemplates().slice(0, 4);
   const points = [
-    "50+ print-ready templates",
+    "60 print-ready templates",
     "Live A4 preview as you type",
     "Automatic saving in your browser",
     "Clean, ATS-friendly PDFs",

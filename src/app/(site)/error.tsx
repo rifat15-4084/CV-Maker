@@ -15,7 +15,7 @@ export default function ErrorBoundary({
 }) {
   useEffect(() => {
     // Surface the error in the console (and any monitoring hook) for debugging.
-    console.error("[cvforge] route error", error);
+    console.error("[cv-maker] route error", error);
   }, [error]);
 
   return (

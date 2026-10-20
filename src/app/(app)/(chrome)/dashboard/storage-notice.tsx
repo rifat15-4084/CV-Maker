@@ -6,7 +6,7 @@ import { formatBytes } from "@/services/local/storage";
 import { useStorageUsage } from "@/lib/storage/use-storage-usage";
 
 /**
- * Explains, on the dashboard, that CVForge has no server: everything lives in
+ * Explains, on the dashboard, that CV Maker has no server: everything lives in
  * this browser. Also surfaces a live storage meter, because a full localStorage
  * would otherwise fail silently at save time.
  */

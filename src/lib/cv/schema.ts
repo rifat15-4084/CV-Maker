@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 /* ==========================================================================
-   CVForge — shared CV data schema
+   CV Maker — shared CV data schema
    Used by the editor form (strict variant: friendly validation messages) and
    by the persistence layer (permissive variant: never blocks an auto-save).
    ========================================================================== */

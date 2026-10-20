@@ -2,7 +2,7 @@
 title: "Will my CV pass the ATS? A practical checklist"
 description: "Applicant tracking systems reject fewer people than the internet claims — but formatting can still hide your content. Here is how to stay safe."
 date: "2026-07-07"
-author: "The CVForge team"
+author: "The CV Maker team"
 readingTime: "6 min read"
 tags: ["ATS", "Formatting"]
 featured: false
@@ -40,9 +40,9 @@ Spelling matters here too. If the advert uses American spelling and you use Brit
 
 If the paste contains your name, contact details, job titles, dates and skills in a sensible order, you are in good shape. If it comes out as gibberish, missing, or empty, fix the layout before applying.
 
-## What CVForge does for you
+## What CV Maker does for you
 
-CV templates in CVForge render as real HTML text with embedded fonts, so the exported PDF stays selectable and copyable. The print layout deliberately omits browser headers, footers and page URLs. And because templates are built from a shared section system, headings stay conventional unless you rename them.
+CV templates in CV Maker render as real HTML text with embedded fonts, so the exported PDF stays selectable and copyable. The print layout deliberately omits browser headers, footers and page URLs. And because templates are built from a shared section system, headings stay conventional unless you rename them.
 
 If you are applying somewhere conservative — finance, government, large corporates — choose a single-column template like a Minimal or Professional design. If you are applying to a startup or a creative agency, a two-column layout with an accent colour is perfectly safe.
 

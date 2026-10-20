@@ -5,7 +5,7 @@ import type { TemplateConfig } from "@/templates/types";
 /**
  * Lightweight SVG preview drawn from a template's `preview` spec.
  * Renders instantly (no image request, no template bundle) which keeps the
- * gallery fast even with 50+ templates.
+ * gallery fast even with 60 templates.
  */
 export function TemplatePreview({
   template,

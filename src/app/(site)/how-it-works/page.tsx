@@ -5,7 +5,7 @@ import {
   BadgeCheck,
   Brush,
   Check,
-  CloudUpload,
+  Save,
   Download,
   FileText,
   Gauge,
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `How it works | ${SITE_NAME}`,
     description:
-      "Pick a template, fill the smart form, download a clean PDF. The complete CVForge walkthrough.",
+      "Pick a template, fill the smart form, download a clean PDF. The complete CV Maker walkthrough.",
     url: "/how-it-works",
   },
 };
@@ -85,9 +85,9 @@ const DETAILS = [
     body: "The right-hand panel is a genuine A4 page rendered with the template's real fonts and spacing, so line breaks and page counts are honest.",
   },
   {
-    icon: CloudUpload,
+    icon: Save,
     title: "Saves while you think",
-    body: "A debounce timer writes your changes roughly 1.5 seconds after the last edit. The top bar tells you when it is saving, saved or retrying.",
+    body: "A debounce timer writes your changes roughly 1.5 seconds after the last edit. The top bar tells you when it is saving or saved.",
   },
   {
     icon: FileText,
@@ -102,7 +102,7 @@ const DETAILS = [
   {
     icon: Lock,
     title: "Private by default",
-    body: "Your CV rows and uploaded photos sit behind row-level security, reachable only by your own signed-in session.",
+    body: "There is no server. Your CVs and photos are stored only in this browser, so they are never uploaded, shared or visible to anyone else.",
   },
   {
     icon: Sparkles,
@@ -124,7 +124,7 @@ export default function HowItWorksPage() {
           <SectionHeading
             eyebrow="How it works"
             title="Three steps from blank page to interview"
-            description="No design skills required, no formatting rabbit holes. CVForge handles layout, spacing and typography so you can focus on the words."
+            description="No design skills required, no formatting rabbit holes. CV Maker handles layout, spacing and typography so you can focus on the words."
           />
         </Reveal>
         <Reveal delay={0.08}>

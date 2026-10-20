@@ -15,14 +15,14 @@ export const PRIVACY_SECTIONS: LegalSection[] = [
   {
     heading: "Who we are",
     paragraphs: [
-      "CVForge is a free online CV builder. References to “CVForge”, “we”, “us” and “our” mean the CVForge service and its operators. References to “you” mean the person using the service.",
+      "CV Maker is a free online CV builder. References to “CV Maker”, “we”, “us” and “our” mean the CV Maker service and its operators. References to “you” mean the person using the service.",
       "This policy explains what personal data we collect, why we collect it, where it is stored and what rights you have over it.",
     ],
   },
   {
     heading: "Data we collect",
     paragraphs: [
-      "CVForge runs entirely in your browser and collects nothing on our side. The information below never leaves your device:",
+      "CV Maker runs entirely in your browser and collects nothing on our side. The information below never leaves your device:",
     ],
     bullets: [
       "Account data: your email address, your name, and your password stored only as a salted PBKDF2-SHA-256 hash — never in plain text.",
@@ -44,7 +44,7 @@ export const PRIVACY_SECTIONS: LegalSection[] = [
   {
     heading: "Where your data is stored",
     paragraphs: [
-      "CVForge has no server of its own. Your account, your CVs and your uploaded photos are stored only in your own browser — accounts and CV documents in the browser's local storage, and images in the browser's IndexedDB database. Nothing is transmitted to us or to any third party.",
+      "CV Maker has no server of its own. Your account, your CVs and your uploaded photos are stored only in your own browser — accounts and CV documents in the browser's local storage, and images in the browser's IndexedDB database. Nothing is transmitted to us or to any third party.",
       "Because the data never leaves your device, we cannot read it, recover it or restore it for you. Clearing your browser data, using private browsing, or switching device or browser will hide your CVs. The dashboard has an export button so you can keep your own backup, and an import button to restore one.",
     ],
   },
@@ -79,13 +79,13 @@ export const PRIVACY_SECTIONS: LegalSection[] = [
   {
     heading: "Children",
     paragraphs: [
-      "CVForge is not directed at children under 16. We do not knowingly collect personal data from children, and in this build we are not able to collect anything from anyone.",
+      "CV Maker is not directed at children under 16. We do not knowingly collect personal data from children, and in this build we are not able to collect anything from anyone.",
     ],
   },
   {
     heading: "Changes to this policy",
     paragraphs: [
-      "We may update this policy as the service evolves. Material changes will be reflected by an updated “last updated” date at the top of this page. Continued use of CVForge after a change constitutes acceptance of the revised policy.",
+      "We may update this policy as the service evolves. Material changes will be reflected by an updated “last updated” date at the top of this page. Continued use of CV Maker after a change constitutes acceptance of the revised policy.",
     ],
   },
 ];
@@ -94,7 +94,7 @@ export const TERMS_SECTIONS: LegalSection[] = [
   {
     heading: "Agreement to these terms",
     paragraphs: [
-      "By creating an account or using CVForge you agree to these terms of service. If you do not agree, please do not use the service.",
+      "By creating an account or using CV Maker you agree to these terms of service. If you do not agree, please do not use the service.",
     ],
   },
   {
@@ -114,19 +114,19 @@ export const TERMS_SECTIONS: LegalSection[] = [
       "Impersonate another person or misrepresent your qualifications in a way that constitutes fraud.",
       "Attempt to breach, probe or overload the service, or access data belonging to other users.",
       "Upload malware, or use automated means to scrape or bulk-download the service.",
-      "Use CVForge to send spam through the contact form or any other channel.",
+      "Use CV Maker to send spam through the contact form or any other channel.",
     ],
   },
   {
     heading: "Your content",
     paragraphs: [
-      "You retain all rights to the content you enter into CVForge. Because the app runs in your browser, your content never reaches us and we never hold a copy of it — so no licence to store or process it is granted or needed.",
+      "You retain all rights to the content you enter into CV Maker. Because the app runs in your browser, your content never reaches us and we never hold a copy of it — so no licence to store or process it is granted or needed.",
     ],
   },
   {
     heading: "Our content",
     paragraphs: [
-      "The CVForge name, interface, template designs and underlying code are owned by us or our licensors and are protected by intellectual property law. You may use the templates to create and distribute your own CVs freely; you may not resell or redistribute the templates themselves as a product.",
+      "The CV Maker name, interface, template designs and underlying code are owned by us or our licensors and are protected by intellectual property law. You may use the templates to create and distribute your own CVs freely; you may not resell or redistribute the templates themselves as a product.",
     ],
   },
   {
@@ -139,19 +139,19 @@ export const TERMS_SECTIONS: LegalSection[] = [
   {
     heading: "Limitation of liability",
     paragraphs: [
-      "To the maximum extent permitted by law, CVForge is not liable for indirect, incidental or consequential losses, loss of data, or lost opportunities arising from your use of the service. Nothing in these terms excludes liability that cannot lawfully be excluded.",
+      "To the maximum extent permitted by law, CV Maker is not liable for indirect, incidental or consequential losses, loss of data, or lost opportunities arising from your use of the service. Nothing in these terms excludes liability that cannot lawfully be excluded.",
     ],
   },
   {
     heading: "Termination",
     paragraphs: [
-      "You may stop using CVForge and delete your account at any time from Settings. We may suspend or terminate access if these terms are breached, if required by law, or to protect the service and its users.",
+      "You may stop using CV Maker and delete your account at any time from Settings. We may suspend or terminate access if these terms are breached, if required by law, or to protect the service and its users.",
     ],
   },
   {
     heading: "Governing law",
     paragraphs: [
-      "These terms are governed by the laws applicable in the jurisdiction in which CVForge is operated, without regard to conflict-of-law rules. Nothing here removes any mandatory consumer protections available to you locally.",
+      "These terms are governed by the laws applicable in the jurisdiction in which CV Maker is operated, without regard to conflict-of-law rules. Nothing here removes any mandatory consumer protections available to you locally.",
     ],
   },
 ];

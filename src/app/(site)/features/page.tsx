@@ -8,6 +8,7 @@ import {
   Download,
   FileSearch,
   Gauge,
+  HardDrive,
   Image as ImageIcon,
   KeyRound,
   Languages,
@@ -18,6 +19,7 @@ import {
   Palette,
   PenLine,
   RefreshCw,
+  Save,
   ShieldCheck,
   Smartphone,
   Sparkles,
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `Features | ${SITE_NAME}`,
     description:
-      "Everything CVForge does: live preview, auto-save, ATS-friendly export, per-template forms and private storage.",
+      "Everything CV Maker does: live preview, auto-save, ATS-friendly export, per-template forms and private storage.",
     url: "/features",
   },
 };
@@ -61,7 +63,7 @@ const GROUPS: {
     eyebrow: "Writing",
     title: "A form that knows your template",
     description:
-      "CVForge reads the template you picked and renders exactly the fields it uses — nothing more, nothing less. Switching templates never deletes work.",
+      "CV Maker reads the template you picked and renders exactly the fields it uses — nothing more, nothing less. Switching templates never deletes work.",
     features: [
       {
         icon: ListChecks,
@@ -139,7 +141,7 @@ const GROUPS: {
     eyebrow: "Export",
     title: "A PDF that survives the robots",
     description:
-      "Recruiters and applicant tracking systems both have to read your CV. CVForge exports real text with embedded fonts.",
+      "Recruiters and applicant tracking systems both have to read your CV. CV Maker exports real text with embedded fonts.",
     features: [
       {
         icon: FileSearch,
@@ -168,27 +170,27 @@ const GROUPS: {
     eyebrow: "Reliability & privacy",
     title: "Saved, private, and there tomorrow",
     description:
-      "Your CV lives in your own account, behind row-level security, with saves that keep happening even when the network hiccups.",
+      "Your CV is saved in your own browser as you type, and never uploaded anywhere — there is no server holding a copy.",
     features: [
       {
-        icon: CloudUpload,
+        icon: Save,
         title: "Auto-save",
         body: "Changes are written about 1.5 seconds after you stop typing, with a clear save-status indicator.",
       },
       {
-        icon: RefreshCw,
-        title: "Offline retry",
-        body: "Lose your connection mid-sentence and CVForge keeps retrying, then tells you when it is safely stored.",
+        icon: HardDrive,
+        title: "Works offline",
+        body: "Everything runs in the browser, so you can keep editing with no connection at all.",
       },
       {
         icon: Lock,
         title: "Private by default",
-        body: "Row Level Security means only your session can read your CV rows and uploaded files. Ever.",
+        body: "There is no backend. Your CVs live in this browser's local storage and your photos in IndexedDB — nothing is transmitted to us or anyone else.",
       },
       {
         icon: KeyRound,
-        title: "Secure accounts",
-        body: "Email verification, password reset and Google sign-in are handled by Supabase Auth — no passwords stored by us.",
+        title: "Local accounts",
+        body: "Sign-up and sign-in are handled entirely in your browser. Passwords are salted and hashed with PBKDF2-SHA-256, never stored in plain text.",
       },
       {
         icon: ShieldCheck,
@@ -222,7 +224,7 @@ export default function FeaturesPage() {
           <SectionHeading
             eyebrow="Features"
             title="Everything a job application actually needs"
-            description="CVForge is deliberately focused: fill in your history, see the real page, download a file that works. Here is what that involves."
+            description="CV Maker is deliberately focused: fill in your history, see the real page, download a file that works. Here is what that involves."
           />
         </Reveal>
         <Reveal delay={0.08}>

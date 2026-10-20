@@ -4,7 +4,7 @@ import { ForgotPasswordForm } from "./forgot-password-form";
 
 export const metadata: Metadata = {
   title: "Reset your password",
-  description: "Reset the password for your local CVForge account.",
+  description: "Reset the password for your local CV Maker account.",
   alternates: { canonical: "/forgot-password" },
   robots: { index: false, follow: true },
 };

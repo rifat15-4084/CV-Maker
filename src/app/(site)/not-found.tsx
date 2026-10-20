@@ -52,7 +52,7 @@ export default function NotFound() {
         </div>
         <p className="mt-10 inline-flex items-center gap-2 text-xs text-ink-600">
           <Compass className="size-3.5" aria-hidden />
-          If you followed a link from inside CVForge, please tell us and we will fix it.
+          If you followed a link from inside CV Maker, please tell us and we will fix it.
         </p>
       </div>
     </div>

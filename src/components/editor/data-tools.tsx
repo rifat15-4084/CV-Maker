@@ -71,7 +71,7 @@ export function DataTools() {
         next.experience.length > 0 ||
         next.summary;
       if (!hasAnything) {
-        setImportError("That file does not look like a CVForge export.");
+        setImportError("That file does not look like a CV Maker export.");
         return;
       }
       replaceData(next);
@@ -177,7 +177,7 @@ export function DataTools() {
         open={importOpen}
         onClose={() => setImportOpen(false)}
         title="Import a CV"
-        description="Paste or upload a CVForge JSON export."
+        description="Paste or upload a CV Maker JSON export."
         footer={
           <>
             <Button variant="ghost" onClick={() => setImportOpen(false)}>

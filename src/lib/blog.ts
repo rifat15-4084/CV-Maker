@@ -67,7 +67,7 @@ function toMeta(slug: string, data: Record<string, unknown>): BlogPostMeta {
     title: String(data.title ?? "Untitled"),
     description: String(data.description ?? ""),
     date: String(data.date ?? "1970-01-01"),
-    author: String(data.author ?? "The CVForge team"),
+    author: String(data.author ?? "The CV Maker team"),
     readingTime: String(data.readingTime ?? "5 min read"),
     tags: Array.isArray(data.tags) ? (data.tags as string[]) : [],
     featured: data.featured === true,

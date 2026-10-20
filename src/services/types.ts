@@ -1,5 +1,5 @@
 /**
- * Service contracts for CVForge.
+ * Service contracts for CV Maker.
  *
  * Every UI component talks to these interfaces and never to a storage API
  * directly. The local (browser-only) implementations live in

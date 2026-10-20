@@ -3,7 +3,7 @@ import { SettingsForm } from "./settings-form";
 
 export const metadata: Metadata = {
   title: "Settings",
-  description: "Manage your CVForge profile, avatar and account.",
+  description: "Manage your CV Maker profile, avatar and account.",
   robots: { index: false, follow: false },
 };
 

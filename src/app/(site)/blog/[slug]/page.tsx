@@ -135,7 +135,7 @@ export default async function BlogPostPage({
         <div className="mt-14 rounded-3xl border border-[var(--border-soft)] bg-gradient-to-br from-cyan-500/12 via-violet-500/12 to-fuchsia-500/12 p-8 text-center">
           <h2 className="text-2xl font-bold tracking-tight">Put this into practice</h2>
           <p className="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-ink-300">
-            Open the CVForge editor, pick a template, and rewrite your bullets with the live A4
+            Open the CV Maker editor, pick a template, and rewrite your bullets with the live A4
             preview watching every change.
           </p>
           <div className="mt-6 flex justify-center">

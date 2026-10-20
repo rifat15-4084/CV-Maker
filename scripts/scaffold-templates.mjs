@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Scaffolds the remaining CVForge templates.
+ * Scaffolds the remaining CV Maker templates.
  *
  * The first 12 templates are hand-authored. This script generates a further
  * 44 using genuinely distinct layout archetypes (header structure, column

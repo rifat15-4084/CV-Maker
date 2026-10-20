@@ -2,7 +2,7 @@
 title: "How to write CV bullet points that actually get read"
 description: "Most CV bullets describe a job. The good ones describe a result. Here is a repeatable formula for turning duties into achievements."
 date: "2026-07-28"
-author: "The CVForge team"
+author: "The CV Maker team"
 readingTime: "6 min read"
 tags: ["Writing", "Bullet points"]
 featured: true

@@ -21,14 +21,14 @@ import { SUPPORT_EMAIL, SITE_NAME } from "@/lib/site";
 import { templateCount } from "@/templates/registry";
 
 export const metadata: Metadata = {
-  title: "About — why we built CVForge",
+  title: "About — why we built CV Maker",
   description:
-    "CVForge exists to remove the formatting tax from job hunting: free, private, print-ready CV building for everyone, with no design skills required.",
+    "CV Maker exists to remove the formatting tax from job hunting: free, private, print-ready CV building for everyone, with no design skills required.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: `About | ${SITE_NAME}`,
     description:
-      "Why CVForge exists: free, private, print-ready CV building with no design skills required.",
+      "Why CV Maker exists: free, private, print-ready CV building with no design skills required.",
     url: "/about",
   },
 };
@@ -42,7 +42,7 @@ const VALUES = [
   {
     icon: Lock,
     title: "Private by default",
-    body: "Your career history is personal. Row-level security means only your signed-in session can read your CVs, photos and profile — not other users, not us idly browsing.",
+    body: "Your career history is personal. CV Maker has no server of its own, so your CVs and photos never leave this browser in the first place — there is nothing for anyone else to read.",
   },
   {
     icon: Scale,
@@ -77,7 +77,7 @@ const STORY = [
   },
   {
     heading: "The build",
-    body: `CVForge ships with ${templateCount()} hand-built templates across seven categories, a template-aware editor, live A4 rendering and clean PDF export. It runs entirely in your browser on Next.js — there is no server holding your data, so nothing to breach and nothing to sign away.`,
+    body: `CV Maker ships with ${templateCount()} hand-built templates across seven categories, a template-aware editor, live A4 rendering and clean PDF export. It runs entirely in your browser on Next.js — there is no server holding your data, so nothing to breach and nothing to sign away.`,
   },
 ];
 
@@ -92,7 +92,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="About"
             title="We removed the formatting tax from job hunting"
-            description="CVForge is a free CV builder for people who would rather think about their next role than about page margins."
+            description="CV Maker is a free CV builder for people who would rather think about their next role than about page margins."
           />
         </Reveal>
         <Reveal delay={0.08}>
@@ -112,10 +112,10 @@ export default function AboutPage() {
         <Reveal>
           <div className="neon-border rounded-3xl p-8 sm:p-10">
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              <StatCard value={`${templateCount()}+`} label="Hand-built templates" hint="7 categories" />
+              <StatCard value={`${templateCount()}`} label="Hand-built templates" hint="7 categories" />
               <StatCard value="£0" label="Cost, forever" hint="No card required" />
               <StatCard value="100%" label="Selectable PDF text" hint="ATS-friendly" />
-              <StatCard value="RLS" label="Row-level security" hint="Private by default" />
+              <StatCard value="Local" label="Stored in your browser" hint="Nothing uploaded" />
             </div>
           </div>
         </Reveal>
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 align="left"
                 eyebrow="Our story"
                 title="From frustration to a form and a preview"
-                description="CVForge started as a way to stop wrestling with document styles once and for all."
+                description="CV Maker started as a way to stop wrestling with document styles once and for all."
               />
               <div className="mt-8 space-y-6">
                 {STORY.map((item) => (
@@ -169,9 +169,9 @@ export default function AboutPage() {
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-ink-400 sm:text-base">
                 The editor is keyboard-operable end to end, respects reduced-motion preferences and
-                labels every control. On the data side, your CVs, photos and profile are protected by
-                row-level security, uploads are limited to images under 2 MB in your own storage
-                folder, and deleting your account removes everything permanently.
+                labels every control. On the data side, CV Maker runs entirely in your browser: your
+                CVs are kept in local storage, photos in IndexedDB, and nothing is ever uploaded.
+                Deleting your account removes everything permanently.
               </p>
               <p className="mt-4 text-sm leading-relaxed text-ink-400">
                 Read the details in our{" "}

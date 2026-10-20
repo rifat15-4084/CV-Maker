@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    // CVForge is fully local: avatars and CV photos are data URLs held in the
+    // CV Maker is fully local: avatars and CV photos are data URLs held in the
     // browser, so there is no storage host to allow. These are kept for the
     // marketing/blog imagery and for anyone who later adds a remote backend.
     remotePatterns: [

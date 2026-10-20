@@ -2,7 +2,7 @@
 title: "One page or two? How to decide for your CV"
 description: "The one-page rule is a myth with a useful core. Here is how to work out the right length for your experience, industry and stage of career."
 date: "2026-07-21"
-author: "The CVForge team"
+author: "The CV Maker team"
 readingTime: "5 min read"
 tags: ["Strategy", "Length"]
 featured: true
@@ -60,7 +60,7 @@ In rough order:
 
 ## A note on length and ATS
 
-Applicant tracking systems parse text, so a longer CV is not automatically worse for them. What hurts is complex layout. If you are applying somewhere that uses older software, a single-column template with clear headings is the safer choice — and CVForge labels which templates are the most conservative.
+Applicant tracking systems parse text, so a longer CV is not automatically worse for them. What hurts is complex layout. If you are applying somewhere that uses older software, a single-column template with clear headings is the safer choice — and CV Maker labels which templates are the most conservative.
 
 ## The final test
 

@@ -64,7 +64,7 @@ export default function OpengraphImage() {
           <span>·</span>
           <span>Free to start</span>
           <span>·</span>
-          <span>Autosaved to the cloud</span>
+          <span>Autosaved in your browser</span>
         </div>
       </div>
     ),

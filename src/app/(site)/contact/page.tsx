@@ -15,12 +15,12 @@ import { ContactForm } from "./contact-form";
 export const metadata: Metadata = {
   title: "Contact — questions, bugs and feedback",
   description:
-    "Get in touch with the CVForge team. Send a message about templates, PDF export, your account or a feature request and we will reply by email.",
+    "Get in touch with the CV Maker team. Send a message about templates, PDF export, your account or a feature request and we will reply by email.",
   alternates: { canonical: "/contact" },
   openGraph: {
     title: `Contact | ${SITE_NAME}`,
     description:
-      "Send the CVForge team a message about templates, PDF export, your account or a feature request.",
+      "Send the CV Maker team a message about templates, PDF export, your account or a feature request.",
     url: "/contact",
   },
 };
@@ -49,12 +49,12 @@ const CHANNELS = [
 
 const SOCIALS = [
   {
-    label: "CVForge on X (opens in a new tab)",
+    label: "CV Maker on X (opens in a new tab)",
     href: "https://twitter.com",
     Icon: XIcon,
   },
   {
-    label: "CVForge on GitHub (opens in a new tab)",
+    label: "CV Maker on GitHub (opens in a new tab)",
     href: "https://github.com",
     Icon: GithubIcon,
   },

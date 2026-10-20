@@ -86,7 +86,7 @@ function DashboardContent() {
       const url = URL.createObjectURL(blob);
       const anchor = document.createElement("a");
       anchor.href = url;
-      anchor.download = `cvforge-backup-${new Date().toISOString().slice(0, 10)}.json`;
+      anchor.download = `cv-maker-backup-${new Date().toISOString().slice(0, 10)}.json`;
       anchor.click();
       URL.revokeObjectURL(url);
       success("Backup exported", `${backup.cvs.length} CV${backup.cvs.length === 1 ? "" : "s"} saved to your downloads.`);
@@ -116,7 +116,7 @@ function DashboardContent() {
     } catch (err) {
       toastError(
         "Could not import that file",
-        err instanceof CvError ? err.message : "Make sure it is a CVForge backup JSON file.",
+        err instanceof CvError ? err.message : "Make sure it is a CV Maker backup JSON file.",
       );
     }
   }
@@ -203,7 +203,7 @@ function DashboardContent() {
             accept="application/json,.json"
             className="sr-only"
             onChange={handleImportFile}
-            aria-label="Import a CVForge backup file"
+            aria-label="Import a CV Maker backup file"
           />
         </div>
       </section>

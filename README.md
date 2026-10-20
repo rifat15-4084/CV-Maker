@@ -1,6 +1,6 @@
-# CVForge
+# CV Maker
 
-A production-ready CV maker: pick a template, fill in your details with a live A4 preview, and download a clean, ATS-friendly PDF. Built with Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion, React Hook Form + Zod and Zustand.
+Pick a template, fill in your details with a live A4 preview, and download a clean, ATS-friendly PDF. Built with Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion, React Hook Form + Zod and Zustand.
 
 **This build runs entirely in the browser — there is no backend and no Supabase.** Accounts, CVs and photos live in the visitor's own browser (localStorage + IndexedDB), so the app deploys anywhere static with **no environment variables** and no database. Data access is hidden behind two small service interfaces, so swapping in a real backend later means writing two classes — see [Adding a backend later](#adding-a-backend-later).
 
@@ -72,7 +72,7 @@ The `dev` script regenerates the template registry first, then starts Next.js. O
 
 ## Where your data lives
 
-CVForge has no server, so all data is stored **in the visitor's own browser**:
+CV Maker has no server, so all data is stored **in the visitor's own browser**:
 
 | What | Where | Key / store | Notes |
 | --- | --- | --- | --- |

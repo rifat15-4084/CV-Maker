@@ -5,7 +5,7 @@ import { LoginForm } from "./login-form";
 
 export const metadata: Metadata = {
   title: "Log in",
-  description: "Log in to CVForge to edit your CVs, switch templates and download fresh PDFs.",
+  description: "Log in to CV Maker to edit your CVs, switch templates and download fresh PDFs.",
   alternates: { canonical: "/login" },
   robots: { index: false, follow: true },
 };
@@ -24,7 +24,7 @@ export default function LoginPage() {
         </div>
 
         <div className="mt-6 space-y-3 border-t border-[var(--border-soft)] pt-5">
-          <AuthFooterLink prompt="New to CVForge?" href="/signup" label="Create a free account" />
+          <AuthFooterLink prompt="New to CV Maker?" href="/signup" label="Create a free account" />
         </div>
       </div>
 

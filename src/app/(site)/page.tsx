@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import {
   ArrowRight,
   BadgeCheck,
-  CloudUpload,
+  Save,
   Download,
   FileSearch,
   Gauge,
@@ -25,11 +25,11 @@ import { SITE_DESCRIPTION, SITE_NAME, SUPPORT_EMAIL } from "@/lib/site";
 import { TESTIMONIALS } from "@/lib/content/testimonials";
 
 export const metadata: Metadata = {
-  title: `${SITE_NAME} — Free CV builder with 50+ print-ready templates`,
+  title: `${SITE_NAME} — Free CV builder with 60 print-ready templates`,
   description: SITE_DESCRIPTION,
   alternates: { canonical: "/" },
   openGraph: {
-    title: `${SITE_NAME} — Free CV builder with 50+ print-ready templates`,
+    title: `${SITE_NAME} — Free CV builder with 60 print-ready templates`,
     description: SITE_DESCRIPTION,
     url: "/",
   },
@@ -40,7 +40,7 @@ const STEPS = [
     icon: LayoutTemplate,
     title: "Pick a template",
     description:
-      "Browse 50+ layouts across Modern, Creative, Minimal, Professional, Tech, Academic and Executive. Filter, search and preview before you commit.",
+      "Browse 60 layouts across Modern, Creative, Minimal, Professional, Tech, Academic and Executive. Filter, search and preview before you commit.",
     points: ["Filter by category", "Hover to preview", "Swap any time"],
   },
   {
@@ -60,13 +60,13 @@ const STEPS = [
 ];
 
 const FEATURES = [
-  { icon: Sparkles, title: "50+ real templates", description: "Distinct layouts and typography for every industry — never a colour swap." },
+  { icon: Sparkles, title: "60 real templates", description: "Distinct layouts and typography for every industry — never a colour swap." },
   { icon: Gauge, title: "Instant live preview", description: "See the exact A4 page update as you type, with zoom and multi-page navigation." },
-  { icon: CloudUpload, title: "Auto-save to your account", description: "Debounced writes about 1.5s after you stop typing, plus offline retry." },
+  { icon: Save, title: "Saves while you type", description: "Debounced writes about 1.5s after you stop typing, stored in your own browser." },
   { icon: MoveVertical, title: "Reorder anything", description: "Drag sections and entries into the order that tells your story best." },
   { icon: Palette, title: "Accent & typography control", description: "Curated palettes and font pairings per template, tuned for print." },
   { icon: FileSearch, title: "ATS-friendly export", description: "Real selectable text with embedded fonts — no screenshots, no headers/footers." },
-  { icon: ShieldCheck, title: "Private by default", description: "Row Level Security means only you can ever read your CV data and files." },
+  { icon: ShieldCheck, title: "Private by default", description: "There is no backend: your CVs stay in this browser and are never uploaded." },
   { icon: Wand2, title: "Sample data & JSON tools", description: "Autofill realistic sample content, reset, import or export your CV as JSON." },
 ];
 
@@ -142,7 +142,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="How it works"
             title="Three steps from blank page to interview"
-            description="No design skills required. CVForge handles layout, spacing and typography so you can focus on the words."
+            description="No design skills required. CV Maker handles layout, spacing and typography so you can focus on the words."
           />
         </Reveal>
         <div className="mt-14 grid gap-6 md:grid-cols-3">

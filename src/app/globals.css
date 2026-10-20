@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ==========================================================================
-   CVForge design system
+   CV Maker design system
    Futuristic dark-first UI with neon cyan / violet / magenta accents.
    The CV templates themselves are deliberately print-safe and never use
    these tokens (see src/app/globals.css @media print).

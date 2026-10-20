@@ -12,12 +12,12 @@ import { SUPPORT_EMAIL, SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy policy",
   description:
-    "What CVForge collects, why, where it is stored, how long it is kept, and the rights you have over your CV data and uploaded photos.",
+    "What CV Maker collects, why, where it is stored, how long it is kept, and the rights you have over your CV data and uploaded photos.",
   alternates: { canonical: "/privacy-policy" },
   openGraph: {
     title: `Privacy policy | ${SITE_NAME}`,
     description:
-      "What CVForge collects, why, where it is stored and the rights you have over your data.",
+      "What CV Maker collects, why, where it is stored and the rights you have over your data.",
     url: "/privacy-policy",
   },
   other: { "article:modified_time": LEGAL_LAST_UPDATED },
@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
         eyebrow="Legal"
         title="Privacy policy"
         updatedLabel={LEGAL_LAST_UPDATED_LABEL}
-        intro="CVForge stores personal career information, so privacy is not an afterthought. This page explains exactly what we collect, why we need it, and how to remove it."
+        intro="CV Maker stores personal career information, so privacy is not an afterthought. This page explains exactly what we collect, why we need it, and how to remove it."
         sections={PRIVACY_SECTIONS}
         footer={
           <div>

@@ -199,7 +199,7 @@ export class LocalCvRepository implements CvRepository {
  */
 export function parseBackup(raw: unknown): CVBackup {
   if (!raw || typeof raw !== "object") {
-    throw new CvError("That file is not a CVForge backup.", "UNKNOWN");
+    throw new CvError("That file is not a CV Maker backup.", "UNKNOWN");
   }
   const candidate = raw as Partial<CVBackup>;
   if (!Array.isArray(candidate.cvs)) {

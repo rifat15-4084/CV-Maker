@@ -7,7 +7,7 @@ import { SignUpForm } from "./signup-form";
 export const metadata: Metadata = {
   title: "Create your free account",
   description:
-    "Sign up to CVForge free: 50+ print-ready templates, live preview and clean ATS-friendly PDF downloads.",
+    "Sign up to CV Maker free: 60 print-ready templates, live preview and clean ATS-friendly PDF downloads.",
   alternates: { canonical: "/signup" },
   robots: { index: false, follow: true },
 };

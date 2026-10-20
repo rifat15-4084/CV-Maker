@@ -14,28 +14,28 @@ import { SUPPORT_EMAIL, SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Pricing — free forever, no card required",
   description:
-    "CVForge is free: all templates, unlimited CVs, live preview, cloud saving and PDF downloads. No credit card, no trial, no watermark.",
+    "CV Maker is free: all templates, unlimited CVs, live preview, saving in your browser and PDF downloads. No credit card, no trial, no watermark.",
   alternates: { canonical: "/pricing" },
   openGraph: {
     title: `Pricing | ${SITE_NAME}`,
     description:
-      "All templates, unlimited CVs, live preview, cloud saving and PDF downloads — free, with no card required.",
+      "All templates, unlimited CVs, live preview, saving in your browser and PDF downloads — free, with no card required.",
     url: "/pricing",
   },
 };
 
 const INCLUDED = [
-  "All 50+ templates across 7 categories",
-  "Unlimited CVs in your account",
+  "All 60 templates across 7 categories",
+  "Unlimited CVs, kept in your own browser",
   "Live A4 preview with zoom and page navigation",
-  "Automatic cloud saving with offline retry",
+  "Automatic saving in your browser with offline retry",
   "Drag-and-drop ordering for entries and sections",
   "Accent colour and font selection per template",
   "Photo upload with cropping",
   "ATS-friendly PDF downloads with selectable text",
   "Sample data, reset, and JSON import/export",
   "Section show/hide and reordering",
-  "Private, row-level-secured storage",
+  "Private storage — nothing leaves your device",
   "No watermarks, no per-download fees",
 ];
 
@@ -92,7 +92,7 @@ const PRICING_FAQ = [
       "As many as you like. Keep one master CV and tailor copies for specific roles — each one is stored separately in your account.",
   },
   {
-    question: "What happens if I stop using CVForge?",
+    question: "What happens if I stop using CV Maker?",
     answer:
       "Your CVs stay in your account until you delete them. Download the PDFs any time, and export the raw data as JSON if you ever want to take it elsewhere.",
   },
@@ -114,7 +114,7 @@ export default function PricingPage() {
           <SectionHeading
             eyebrow="Pricing"
             title="Free, and honest about it"
-            description="No trial countdowns, no locked templates, no surprise charge when you download. CVForge exists to get you interviews, not to nickel-and-dime you."
+            description="No trial countdowns, no locked templates, no surprise charge when you download. CV Maker exists to get you interviews, not to nickel-and-dime you."
           />
         </Reveal>
       </section>

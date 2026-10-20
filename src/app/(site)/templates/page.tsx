@@ -8,12 +8,12 @@ import { listTemplates, templateCount } from "@/templates/registry";
 export const metadata: Metadata = {
   title: `CV templates — ${templateCount()} print-ready designs`,
   description:
-    "Browse every CVForge template: Modern, Creative, Minimal, Professional, Tech, Academic and Executive layouts. Filter by style, then start editing free.",
+    "Browse every CV Maker template: Modern, Creative, Minimal, Professional, Tech, Academic and Executive layouts. Filter by style, then start editing free.",
   alternates: { canonical: "/templates" },
   openGraph: {
     title: `CV templates — ${templateCount()} print-ready designs | ${SITE_NAME}`,
     description:
-      "Browse every CVForge template. Filter by category, preview instantly and start editing free.",
+      "Browse every CV Maker template. Filter by category, preview instantly and start editing free.",
     url: "/templates",
   },
 };

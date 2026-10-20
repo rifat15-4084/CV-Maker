@@ -146,7 +146,7 @@ function SettingsPanel({ user }: { user: User }) {
       const url = URL.createObjectURL(blob);
       const anchor = document.createElement("a");
       anchor.href = url;
-      anchor.download = `cvforge-backup-${new Date().toISOString().slice(0, 10)}.json`;
+      anchor.download = `cv-maker-backup-${new Date().toISOString().slice(0, 10)}.json`;
       anchor.click();
       URL.revokeObjectURL(url);
       toast.success("Backup exported", `${backup.cvs.length} CV(s) saved to your downloads.`);
@@ -181,7 +181,7 @@ function SettingsPanel({ user }: { user: User }) {
       <section className="glass rounded-3xl p-6">
         <h2 className="text-base font-semibold text-[var(--page-fg)]">Profile</h2>
         <p className="mt-1 text-sm text-ink-400">
-          This is how your account appears across CVForge. It is never shown on your CVs.
+          This is how your account appears across CV Maker. It is never shown on your CVs.
         </p>
 
         <div className="mt-5 flex flex-wrap items-center gap-4">

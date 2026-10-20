@@ -31,7 +31,7 @@ export function HeroMockup({ templateIds }: { templateIds: string[] }) {
           <span className="size-2.5 rounded-full bg-amber-400/80" />
           <span className="size-2.5 rounded-full bg-emerald-400/80" />
           <span className="ml-3 truncate text-xs text-ink-400">
-            cvforge.app/editor — {config.name}
+            cvmaker.app/editor — {config.name}
           </span>
           <span className="ml-auto hidden items-center gap-1.5 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 sm:flex">
             <span className="size-1.5 animate-pulse rounded-full bg-emerald-400" />
@@ -114,7 +114,7 @@ export function HeroMockup({ templateIds }: { templateIds: string[] }) {
         <p className="text-[10px] font-medium tracking-wide text-ink-400 uppercase">
           Templates
         </p>
-        <p className="text-lg font-bold text-gradient">50+</p>
+        <p className="text-lg font-bold text-gradient">60</p>
       </motion.div>
     </div>
   );

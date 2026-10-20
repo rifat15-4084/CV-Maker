@@ -1,9 +1,14 @@
-export const SITE_NAME = "CVForge";
-export const SITE_TAGLINE = "Forge a CV that gets you hired";
+export const SITE_NAME = "CV Maker";
+export const SITE_SHORT_NAME = "CV";
+export const SITE_TAGLINE = "Make a CV that gets you hired";
 export const SITE_DESCRIPTION =
-  "CVForge is a free CV builder with 50+ print-ready templates, live preview, automatic cloud saving and clean ATS-friendly PDF downloads.";
+  "CV Maker is a free CV builder with 60 print-ready templates, live preview, automatic saving in your browser and clean ATS-friendly PDF downloads.";
 
-export const SUPPORT_EMAIL = "support@cvforge.app";
+/** Shown in the footer as the person behind the project. */
+export const AUTHOR_NAME = "MD Rifat Hasan";
+export const AUTHOR_URL = "https://md-rifat-hasan.vercel.app";
+
+export const SUPPORT_EMAIL = "support@cvmaker.app";
 
 /** Absolute origin of the deployment, used for auth redirects and metadata. */
 export function getSiteUrl() {

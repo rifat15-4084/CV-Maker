@@ -3,7 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ToastProvider } from "@/components/providers/toast-provider";
 import { AuthProvider } from "@/components/providers/auth-provider";
-import { SITE_DESCRIPTION, SITE_NAME, getSiteUrl } from "@/lib/site";
+import { AUTHOR_NAME, AUTHOR_URL, SITE_DESCRIPTION, SITE_NAME, getSiteUrl } from "@/lib/site";
 import "./globals.css";
 
 const sans = Inter({
@@ -34,7 +34,9 @@ export const metadata: Metadata = {
     "PDF CV download",
     "CV maker",
   ],
-  authors: [{ name: SITE_NAME }],
+  authors: [{ name: AUTHOR_NAME, url: AUTHOR_URL }],
+  creator: AUTHOR_NAME,
+  publisher: AUTHOR_NAME,
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
