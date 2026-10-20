@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
 import { Reveal, SectionHeading, AuroraBackdrop, GridBackdrop, StatCard } from "@/components/marketing/primitives";
-import { HeroMockup } from "@/components/marketing/hero-mockup";
+import { HeroEditorMockup } from "@/components/home/HeroEditorMockup";
 import { FaqPreview } from "@/components/marketing/faq-preview";
 import { TemplateThumbnail } from "@/components/templates/template-thumbnail";
 import { listTemplates, templateCount } from "@/templates/registry";
@@ -131,7 +131,7 @@ export default function HomePage() {
           </div>
 
           <Reveal delay={0.15} y={28}>
-            <HeroMockup templateIds={featured.map((template) => template.id)} />
+            <HeroEditorMockup />
           </Reveal>
         </div>
       </section>
