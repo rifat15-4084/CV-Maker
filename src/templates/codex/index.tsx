@@ -1,0 +1,26 @@
+import { config } from "./config";
+import { createTheme } from "../_kit/theme";
+import { pickFont } from "../_kit/fonts";
+import { contactItems, fullName, visibleSections } from "../_kit/helpers";
+import { SectionBlock, type SectionStyleOptions } from "../_kit/sections";
+import { ContactList } from "../_kit/primitives";
+import type { TemplateProps } from "../types";
+
+export { config };
+
+export function Template({ data }: TemplateProps) {
+  const theme = createTheme(data, { font: pickFont(data.settings.font, config.fonts) });
+  const personal = data.personal;
+  const sections = visibleSections(data);  const options: SectionStyleOptions = { titleVariant: "double", entryLayout: "row", bulletMarker: "dash" };
+
+  return (
+      <div style={{ padding: "17mm 19mm" }}>
+        <header style={{ marginBottom: theme.sectionGap }}>
+          <h1 style={{ margin: 0, fontFamily: theme.headingFont, fontSize: "29pt", fontWeight: 700, letterSpacing: "0.01em" }}>{fullName(personal) || "Your Name"}</h1>
+          {personal.jobTitle ? <p style={{ margin: "4pt 0 0", fontSize: "10.5pt", letterSpacing: "0.14em", textTransform: "uppercase", color: theme.accentDark }}>{personal.jobTitle}</p> : null}
+          <div style={{ marginTop: "9pt" }}><ContactList items={contactItems(personal)} theme={theme} columns={2} /></div>
+        </header>
+        {sections.map((section) => <SectionBlock key={section} data={data} section={section} theme={theme} options={options} />)}
+      </div>
+  );
+}
