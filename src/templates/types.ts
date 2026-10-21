@@ -18,6 +18,13 @@ export const TEMPLATE_CATEGORIES = [
   "Tech",
   "Academic",
   "Executive",
+  "Editorial",
+  "Geometric",
+  "Bold",
+  "Infographic",
+  "Elegant",
+  "Luxury",
+  "Grid",
 ] as const;
 
 export type TemplateCategory = (typeof TEMPLATE_CATEGORIES)[number];

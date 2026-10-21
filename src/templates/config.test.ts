@@ -21,8 +21,8 @@ const templates = listTemplates();
 
 describe("template configs", () => {
   it("registers every template in the manifest", () => {
-    expect(templateCount()).toBe(60);
-    expect(templates).toHaveLength(60);
+    expect(templateCount()).toBe(72);
+    expect(templates).toHaveLength(72);
   });
 
   it("has a config id matching its manifest id", () => {

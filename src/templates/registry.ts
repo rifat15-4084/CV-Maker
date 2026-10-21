@@ -64,6 +64,18 @@ import { config as thesisConfig } from "./thesis/config";
 import { config as vanguardConfig } from "./vanguard/config";
 import { config as vividConfig } from "./vivid/config";
 import { config as zenithConfig } from "./zenith/config";
+import { config as bookCoverConfig } from "./book-cover/config";
+import { config as columnJournalConfig } from "./column-journal/config";
+import { config as essayLayoutConfig } from "./essay-layout/config";
+import { config as gazetteConfig } from "./gazette/config";
+import { config as hexagonSkillsConfig } from "./hexagon-skills/config";
+import { config as interviewStyleConfig } from "./interview-style/config";
+import { config as lookbookConfig } from "./lookbook/config";
+import { config as magazineCoverConfig } from "./magazine-cover/config";
+import { config as mastheadConfig } from "./masthead/config";
+import { config as pullQuoteConfig } from "./pull-quote/config";
+import { config as trianglesConfig } from "./triangles/config";
+import { config as typographicPosterConfig } from "./typographic-poster/config";
 
 import { Template as Atlas } from "./atlas/index";
 import { Template as Aurora } from "./aurora/index";
@@ -125,6 +137,18 @@ import { Template as Thesis } from "./thesis/index";
 import { Template as Vanguard } from "./vanguard/index";
 import { Template as Vivid } from "./vivid/index";
 import { Template as Zenith } from "./zenith/index";
+import { Template as BookCover } from "./book-cover/index";
+import { Template as ColumnJournal } from "./column-journal/index";
+import { Template as EssayLayout } from "./essay-layout/index";
+import { Template as Gazette } from "./gazette/index";
+import { Template as HexagonSkills } from "./hexagon-skills/index";
+import { Template as InterviewStyle } from "./interview-style/index";
+import { Template as Lookbook } from "./lookbook/index";
+import { Template as MagazineCover } from "./magazine-cover/index";
+import { Template as Masthead } from "./masthead/index";
+import { Template as PullQuote } from "./pull-quote/index";
+import { Template as Triangles } from "./triangles/index";
+import { Template as TypographicPoster } from "./typographic-poster/index";
 
 interface RegistryEntry {
   config: TemplateConfig;
@@ -192,6 +216,18 @@ const ENTRIES: RegistryEntry[] = [
   { config: vanguardConfig, Template: Vanguard },
   { config: vividConfig, Template: Vivid },
   { config: zenithConfig, Template: Zenith },
+  { config: bookCoverConfig, Template: BookCover },
+  { config: columnJournalConfig, Template: ColumnJournal },
+  { config: essayLayoutConfig, Template: EssayLayout },
+  { config: gazetteConfig, Template: Gazette },
+  { config: hexagonSkillsConfig, Template: HexagonSkills },
+  { config: interviewStyleConfig, Template: InterviewStyle },
+  { config: lookbookConfig, Template: Lookbook },
+  { config: magazineCoverConfig, Template: MagazineCover },
+  { config: mastheadConfig, Template: Masthead },
+  { config: pullQuoteConfig, Template: PullQuote },
+  { config: trianglesConfig, Template: Triangles },
+  { config: typographicPosterConfig, Template: TypographicPoster },
 ];
 
 const BY_ID = new Map(ENTRIES.map((entry) => [entry.config.id, entry]));

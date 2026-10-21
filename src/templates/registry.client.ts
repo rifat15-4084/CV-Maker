@@ -67,6 +67,18 @@ import { config as thesisConfig } from "./thesis/config";
 import { config as vanguardConfig } from "./vanguard/config";
 import { config as vividConfig } from "./vivid/config";
 import { config as zenithConfig } from "./zenith/config";
+import { config as bookCoverConfig } from "./book-cover/config";
+import { config as columnJournalConfig } from "./column-journal/config";
+import { config as essayLayoutConfig } from "./essay-layout/config";
+import { config as gazetteConfig } from "./gazette/config";
+import { config as hexagonSkillsConfig } from "./hexagon-skills/config";
+import { config as interviewStyleConfig } from "./interview-style/config";
+import { config as lookbookConfig } from "./lookbook/config";
+import { config as magazineCoverConfig } from "./magazine-cover/config";
+import { config as mastheadConfig } from "./masthead/config";
+import { config as pullQuoteConfig } from "./pull-quote/config";
+import { config as trianglesConfig } from "./triangles/config";
+import { config as typographicPosterConfig } from "./typographic-poster/config";
 
 export const TEMPLATE_CONFIGS: TemplateConfig[] = [
   atlasConfig,
@@ -129,6 +141,18 @@ export const TEMPLATE_CONFIGS: TemplateConfig[] = [
   vanguardConfig,
   vividConfig,
   zenithConfig,
+  bookCoverConfig,
+  columnJournalConfig,
+  essayLayoutConfig,
+  gazetteConfig,
+  hexagonSkillsConfig,
+  interviewStyleConfig,
+  lookbookConfig,
+  magazineCoverConfig,
+  mastheadConfig,
+  pullQuoteConfig,
+  trianglesConfig,
+  typographicPosterConfig,
 ];
 
 const CONFIG_BY_ID = new Map(TEMPLATE_CONFIGS.map((item) => [item.id, item]));
@@ -199,6 +223,18 @@ const LOADERS: Record<string, Loader> = {
   "vanguard": () => import("./vanguard/index"),
   "vivid": () => import("./vivid/index"),
   "zenith": () => import("./zenith/index"),
+  "book-cover": () => import("./book-cover/index"),
+  "column-journal": () => import("./column-journal/index"),
+  "essay-layout": () => import("./essay-layout/index"),
+  "gazette": () => import("./gazette/index"),
+  "hexagon-skills": () => import("./hexagon-skills/index"),
+  "interview-style": () => import("./interview-style/index"),
+  "lookbook": () => import("./lookbook/index"),
+  "magazine-cover": () => import("./magazine-cover/index"),
+  "masthead": () => import("./masthead/index"),
+  "pull-quote": () => import("./pull-quote/index"),
+  "triangles": () => import("./triangles/index"),
+  "typographic-poster": () => import("./typographic-poster/index"),
 };
 
 /**
